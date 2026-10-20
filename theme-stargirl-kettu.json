@@ -1,7 +1,7 @@
 {
   "name": "StarGirl",
-  "description": "Tema em Tons de Roxo Estrelado.",
-  "version": "1.3",
+  "description": "Tons de Roxo.",
+  "version": "1.4",
   "authors": [
     {
       "name": "nyxielly"
@@ -32,6 +32,9 @@
     "CHANNEL_ICON": [
       "#D8B4FE"
     ],
+    "HEADER_PRIMARY": [
+      "#F3E8FF"
+    ],
     "HEADER_SECONDARY": [
       "#D8B4FE"
     ],
@@ -41,8 +44,32 @@
     "REDESIGN_CHANNEL_CATEGORY_NAME_TEXT": [
       "#D8B4FE"
     ],
+    "REDESIGN_CHANNEL_NAME_TEXT": [
+      "#F3E8FF"
+    ],
     "TEXT_MUTED": [
       "#D8B4FE"
+    ],
+    "TEXT_DEFAULT": [
+      "#F3E8FF"
+    ],
+    "TEXT_NORMAL": [
+      "#F3E8FF"
+    ],
+    "TEXT_PRIMARY": [
+      "#F3E8FF"
+    ],
+    "TEXT_SECONDARY": [
+      "#D8B4FE"
+    ],
+    "TEXT_STRONG": [
+      "#F3E8FF"
+    ],
+    "INTERACTIVE_NORMAL": [
+      "#D8B4FE"
+    ],
+    "INTERACTIVE_TEXT_DEFAULT": [
+      "#F3E8FF"
     ],
     "ANDROID_NAVIGATION_SCRIM_BACKGROUND": [
       "#130D1A"
@@ -146,30 +173,6 @@
     "REDESIGN_CHAT_INPUT_BACKGROUND": [
       "#1E132D"
     ],
-    "HEADER_PRIMARY": [
-      "#F3E8FF"
-    ],
-    "INTERACTIVE_NORMAL": [
-      "#D8B4FE"
-    ],
-    "INTERACTIVE_TEXT_DEFAULT": [
-      "#F3E8FF"
-    ],
-    "REDESIGN_CHANNEL_NAME_TEXT": [
-      "#F3E8FF"
-    ],
-    "TEXT_DEFAULT": [
-      "#F3E8FF"
-    ],
-    "TEXT_NORMAL": [
-      "#F3E8FF"
-    ],
-    "TEXT_PRIMARY": [
-      "#F3E8FF"
-    ],
-    "TEXT_STRONG": [
-      "#F3E8FF"
-    ],
     "ANDROID_RIPPLE": [
       "#5b2a82"
     ],
@@ -229,9 +232,6 @@
     ],
     "STATUS_DANGER_BACKGROUND": [
       "#7f007b"
-    ],
-    "TEXT_SECONDARY": [
-      "#D8B4FE"
     ]
   },
   "rawColors": {
@@ -250,6 +250,7 @@
     "BRAND_630": "#8A2BE2",
     "BRAND_660": "#8A2BE2",
     "BRAND_700": "#8A2BE2",
+    "BRAND_560": "#C084FC",
     "PLUM_1": "#F3E8FF",
     "PLUM_2": "#F3E8FF",
     "PLUM_3": "#8A2BE2",
@@ -257,47 +258,45 @@
     "PLUM_5": "#D8B4FE",
     "PLUM_6": "#D8B4FE",
     "PLUM_15": "#8A2BE2",
+    "PLUM_9": "#130D1A",
+    "PLUM_10": "#130D1A",
+    "PLUM_11": "#130D1A",
+    "PLUM_13": "#130D1A",
+    "PLUM_16": "#1E132D",
+    "PLUM_17": "#130D1A",
+    "PLUM_18": "#101012",
+    "PLUM_19": "#1E132D",
+    "PLUM_20": "#130D1A",
+    "PLUM_21": "#1E132D",
+    "PLUM_22": "#1E132D",
+    "PLUM_24": "#130D1A",
+    "PLUM_25": "#130D1A",
     "PRIMARY_100": "#F3E8FF",
     "PRIMARY_200": "#D8B4FE",
     "PRIMARY_300": "#D8B4FE",
     "PRIMARY_330": "#D8B4FE",
     "PRIMARY_360": "#D8B4FE",
-    "PRIMARY_400": "#C084FC",
-    "PRIMARY_500": "#8A2BE2",
-    "PRIMARY_530": "#8A2BE2",
-    "BRAND_560": "#C084FC",
-    "PLUM_9": "#130D1A",
-    "PLUM_10": "#130D1A",
-    "PLUM_11": "#130D1A",
-    "PLUM_13": "#130D1A",
+    "PRIMARY_400": "#D8B4FE",
+    "PRIMARY_460": "#D8B4FE",
+    "PRIMARY_500": "#D8B4FE",
+    "PRIMARY_530": "#D8B4FE",
+    "PRIMARY_600": "#F3E8FF",
+    "PRIMARY_630": "#F3E8FF",
+    "PRIMARY_645": "#D8B4FE",
+    "PRIMARY_660": "#D8B4FE",
+    "PRIMARY_700": "#D8B4FE",
     "PRIMARY_730": "#130D1A",
-    "ROLE_DEFAULT": "#D8B4FE",
-    "WHITE_630": "#D8B4FE",
-    "PLUM_17": "#130D1A",
-    "PLUM_20": "#130D1A",
-    "PLUM_24": "#130D1A",
-    "PLUM_25": "#130D1A",
-    "PRIMARY_600": "#130D1A",
+    "PRIMARY_800": "#D8B4FE",
+    "PRIMARY_DARK_200": "#F3E8FF",
+    "PRIMARY_DARK_600": "#F3E8FF",
+    "PRIMARY_DARK_630": "#F3E8FF",
+    "PRIMARY_DARK_660": "#F3E8FF",
     "PRIMARY_DARK_700": "#130D1A",
     "PRIMARY_DARK_800": "#130D1A",
-    "PLUM_16": "#1E132D",
-    "PLUM_19": "#1E132D",
-    "PLUM_21": "#1E132D",
-    "PLUM_22": "#1E132D",
-    "PRIMARY_460": "#1E132D",
-    "PRIMARY_630": "#1E132D",
-    "PRIMARY_660": "#1E132D",
-    "PRIMARY_700": "#1E132D",
-    "PRIMARY_DARK_200": "#F3E8FF",
-    "PRIMARY_DARK_600": "#1E132D",
-    "PRIMARY_DARK_630": "#1E132D",
-    "PRIMARY_DARK_660": "#1E132D",
-    "BRAND_730": "#F3E8FF",
+    "ROLE_DEFAULT": "#D8B4FE",
     "WHITE_500": "#F3E8FF",
+    "WHITE_630": "#D8B4FE",
     "BLACK_500": "#000000b2",
-    "PLUM_18": "#101012",
-    "PRIMARY_645": "#101012",
-    "PRIMARY_800": "#101012",
     "GREEN_500": "#43b581",
     "RED_500": "#7f007b",
     "ORANGE_500": "#faa61a",
